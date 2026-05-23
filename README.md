@@ -126,9 +126,14 @@ openclaw onboard --auth-choice openai-codex
 
 ### ☁️ Hosting & Deployment
 
-You can deploy OpenClaw on any VPS or cloud platform run your skills securely on your own infrastructure, or a managed host. Docker, Podman, Nix, and Ansible are all supported as install methods.
+You can deploy OpenClaw on any VPS or cloud platform to run your skills securely on your own infrastructure, or use a managed host that handles servers, updates, and isolation for you. 
 
-> **Tip:** If you're looking for a quick cloud setup, spin up a VPS with your preferred provider, install OpenClaw via Docker, and you're good to go.
+<a href="https://myclaw.ai/?utm_source=github&utm_campaign=awesome-openclaw-skills">
+<img src="https://cdn.voltagent.dev/awesome-repo/myclaw-img.png" alt="MyClaw"  />
+You can run these skills without managing a server — a full cloud-hosted OpenClaw instance with one-click setup, 24/7 uptime, and complete data ownership.
+</a>
+
+> **Tip:** If you're self-hosting, pin your OpenClaw Docker image to a specific tag and snapshot your skills volume before upgrades — makes rollbacks painless when a skill update misbehaves.
 
 
 <div align="center">
